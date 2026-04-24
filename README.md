@@ -7,3 +7,4 @@ Pages include:
     Resume
 
 Published URL:
+https://ecarey8-ui.github.io/erincareyportfolio/
