@@ -1,0 +1,13 @@
+/* CSS by Erin Carey */
+/* Color Palette
+    sky blue = #7C9EA6
+    nectarine = #BF6211
+    burnt orange = #BF4904
+    peach = #D97E4A
+    brick = #8C3D2B
+*/
+
+/* GLBOAL (base) MOBILE FIRST */
+body {
+    background-color: #7C9EA6;
+}
