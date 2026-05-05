@@ -9,5 +9,45 @@
 
 /* GLBOAL (base) MOBILE FIRST */
 body {
-    background-color: #7C9EA6;
+    display:grid;
+    grid-template-columns:1fr;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background-color: #D97E4A;
+}
+header, footer, nav{
+  grid-column: 1/3;
+}
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  background-color: #7c9ea6;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.card-row{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: #8C3D2B;
+  padding:1rem;
+  margin-top: 2rem;
+}
+.card-row > section{
+  flex: 1 1 260px;
+  background-color: #BF4904;
+  padding:0.5rem;
+}
+
+@media screen and (max-width:1000px){
+    .card-row {
+    grid-template-columns:1fr 1fr;
+}
 }
